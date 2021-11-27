@@ -87,7 +87,6 @@ const Main = () => {
 
                 <button>Submit</button>
             </form>
-
         </div>
     );
 };

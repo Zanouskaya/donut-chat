@@ -71,6 +71,7 @@ const Step1 = () => {
                 )}
 
                 <button>Submit</button>
+                <button className="btn-second"><a href="/">Skip</a></button>
             </form>
 
         </div>
