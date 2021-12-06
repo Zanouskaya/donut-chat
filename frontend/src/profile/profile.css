@@ -1,55 +1,71 @@
+:root {
+  --main-color: rgba(255, 255, 255, 0.29);
+}
+
 .nav {
-  width: 80%;
+  width: 60%;
   margin: auto;
   padding: 10px;
-  /*border: 1px solid steelblue;*/
+  /* border: 1px solid steelblue; */
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .container {
-  max-width: 80%;
-  margin: auto;
-  /*overflow: auto;*/
-  /*min-height: 300px;*/
-  /*border: 1px solid steelblue;*/
-  border-radius: 5px;
-  padding: 10px;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 10px;
   flex-direction: column;
   font-family: 'Montserrat', sans-serif;
-  /*align-items: center;*/
+  width: 40%;
+  /* border: 1px solid steelblue; */
 }
 
 .btn {
-  width: 180px;
   height: 80px;
-  padding: 10px;
-  background: white;
-  color: #000;
-  border: 1px solid rebeccapurple;
-  border-radius: 5px;
+  margin: 0 10px 0 auto;
+  color: #FFF;
+  border-radius: 20px;
   cursor: pointer;
   font-size: 15px;
+  background: none;
+  border: 2px solid var(--main-color);
 }
 
-.person {
+.btn-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  justify-content: center;
+  width: 100%;
+  /* border: 1px solid pink; */
+  justify-content: space-between;
+  margin: 10px 0 10px 0;
+}
+
+.person-container {
   /*max-width: 500px;*/
   display: flex;
-  background: rebeccapurple;
+  background: var(--main-color);
   color: white;
   cursor: pointer;
-  border-radius: 20px;
+  border-radius: 75px;
   padding: 10px 20px;
   margin: 10px auto;
   align-items: center;
-
+  width: 100%;
+  /* border: 1px solid steelblue; */
 }
 
 .info {
-  display: flex;
   flex-direction: column;
+  border: 1px solid steelblue;
+  margin: 20px;
+  margin-left: 100px;
+  padding: 10px;
 }
 
 .avatar {
@@ -58,36 +74,22 @@
 }
 
 .btn-link {
-  background: rgba(130, 66, 153, 0.53);
-  color: #000;
-  border: 1px solid rebeccapurple;
-  padding: 10px 20px;
-  margin-bottom: 10px;
-  border-radius: 5px;
+  background: var(--main-color);
+  color: #FFF;
+  /* border: 1px solid rebeccapurple; */
+  border-radius: 20px;
   cursor: pointer;
-
   font-size: 15px;
-  width: 100%;
-
 }
 
-.main-buttons {
-  margin: 20px 0;
-  padding: 0;
-  /*border: 1px solid steelblue;*/
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-}
-
-.links-buttons {
+.link-container{
   margin: 20px 0;
   padding: 0;
   /*border: 1px solid steelblue;*/
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 
 .btn-logout {
@@ -103,4 +105,9 @@
     margin-top: 15px;
     margin-bottom: 30px;
     border: none;
+}
+
+.btn:hover {
+  border: 2px solid #FFF;
+  background: none;
 }

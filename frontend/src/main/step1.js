@@ -25,11 +25,11 @@ const Step1 = () => {
         },
         {
             id: 2,
-            name:'nickName',
-            type:'id',
+            name:'email',
+            type:'email',
             // placeholder:'Email',
-            errorMessage: 'This nickname is already taken',
-            label:'nickName',
+            errorMessage: 'Enter correct email',
+            label:'Email',
             required: true
         },
         {

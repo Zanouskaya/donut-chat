@@ -1,10 +1,11 @@
-import './app.css'
+
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Main from "./main/main";
 import Profile from "./profile/profile";
 import Step1 from "./main/step1";
 import LogIn from "./main/login";
+import './app.css';
 
 
 function App() {
