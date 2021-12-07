@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import './main.css'
-import FormInput from "../components/FormInput";
+import FormInput from "../components/autorization/FormInput";
 import {useState} from 'react';
 
 const LogIn = () => {

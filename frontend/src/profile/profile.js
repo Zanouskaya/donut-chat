@@ -1,10 +1,10 @@
+import React from 'react';
 import './profile.css';
-import Avatar from '../components/Avatar'
-import Person from '../components/Person';
-import Nav from '../components/Nav';
+import Avatar from '../components/profile/info-section/Avatar'
+import Person from '../components/profile/info-section/Person';
+import Nav from '../components/profile/Nav';
 import Button from '../components/Button';
-import LinkBtn from '../components/LinkBtn';
-
+import LinkSection from '../components/profile/link-section/LinkSection';
 
 function Profile() {
 
@@ -25,10 +25,10 @@ function Profile() {
                   <Button text={'Make a Gift'}/>
                   <Button text={'Responses'}/>
               </div>
-              <div className='link-container'>
-                  <LinkBtn networkLink={'@facebook'}/>
-                  <LinkBtn networkLink={'@twitter'}/>
-              </div>
+
+                <LinkSection className='link-container'/>
+
+            
           </div>
       </div>
 

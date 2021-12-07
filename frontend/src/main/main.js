@@ -1,5 +1,5 @@
 import './main.css'
-import FormInput from "../components/FormInput";
+import FormInput from "../components/autorization/FormInput";
 import {useState} from 'react';
 
 

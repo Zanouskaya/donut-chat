@@ -1,0 +1,21 @@
+.list {
+  background: none;
+  width: 100%;
+}
+
+.list ul {
+  list-style-type: none;
+}
+
+.list h4{
+  text-align: center;
+  text-decoration: inherit;
+}
+
+.list li {
+  background: rgba(255, 255, 255, 0.29);
+  margin-bottom: 1rem;
+  border-radius: 20px;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}

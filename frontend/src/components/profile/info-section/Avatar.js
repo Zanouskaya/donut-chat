@@ -1,4 +1,4 @@
-import avatar from '../img/avatar.png'
+import avatar from './img/avatar.png'
 
 const Avatar = () => {
     return (

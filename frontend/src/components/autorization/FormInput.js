@@ -1,4 +1,4 @@
-import '../main/main.css'
+// import '../main/main.css'
 import { useState } from 'react'
 
 const FormInput = (props) => {

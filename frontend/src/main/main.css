@@ -26,7 +26,7 @@ h2{
     margin-bottom: 40px;
 }
 
-button {
+/* button {
     width: 100%;
     height: 50px;
     background: #C75895;
@@ -40,7 +40,7 @@ button {
     margin-bottom: 30px;
     border: none;
 
-}
+} */
 
 .formInput {
     display: flex;
@@ -75,9 +75,10 @@ input:hover {
     border: 1px solid white;
 }
 
-button:hover {
+/* button:hover,
+button:active {
     background: #D64192;
-}
+} */
 
 a {
   text-decoration: none;
