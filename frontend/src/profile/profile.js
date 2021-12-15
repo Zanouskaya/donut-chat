@@ -25,10 +25,7 @@ function Profile() {
                   <Button text={'Make a Gift'}/>
                   <Button text={'Responses'}/>
               </div>
-
-                <LinkSection className='link-container'/>
-
-            
+                <LinkSection />
           </div>
       </div>
 
